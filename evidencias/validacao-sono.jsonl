@@ -1,0 +1,3 @@
+{"recebido_em": "2026-11-21T20:02:49.096075-03:00", "dados": {"ciclos": 1, "heap": 214476, "acordar": "reset/outro", "reset_reason": 1, "sono_ms": 0}}
+{"recebido_em": "2026-11-21T20:03:43.462114-03:00", "dados": {"ciclos": 2, "heap": 214452, "acordar": "timer", "reset_reason": 8, "sono_ms": 31492}}
+{"recebido_em": "2026-11-21T20:04:27.756584-03:00", "dados": {"ciclos": 3, "heap": 214432, "acordar": "timer", "reset_reason": 8, "sono_ms": 31492}}

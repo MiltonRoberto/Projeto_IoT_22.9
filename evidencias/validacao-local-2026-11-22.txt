@@ -1,0 +1,56 @@
+Revisao local em 22/11/2026 (America/Sao_Paulo)
+Integrantes: Milton Roberto e Marcelo Telles
+
+AMBIENTE PYTHON
+.venv criado com Python 3.11.
+paho-mqtt 2.2.0 instalado conforme servico/requirements.txt.
+Comando: .venv\Scripts\python.exe -m pip check
+Resultado: No broken requirements found.
+Comando: .venv\Scripts\python.exe -m unittest discover -s servico -v
+Resultado: Ran 4 tests; OK.
+Sintaxe dos tres arquivos Python conferida sem erros.
+
+SERVICO E BROKER
+iniciar-servico.cmd executado com entrada sair, sem publicar comandos.
+Assinatura confirmada: sis1a/milton-amf-iot4-481337832642259969/#
+Em 22/11/2026 as 15:51:21 UTC-03:00, foram recebidos valores retidos:
+temp=27.8 e umid=61.0.
+Registros: servico/registros/wokwi.jsonl (arquivo local ignorado pelo Git).
+Valores retidos nao comprovam que o simulador estava em execucao.
+
+COMPILACAO DOS FIRMWARES
+Arduino CLI; placa esp32:esp32:esp32; pacote ESP32 3.3.11.
+Foram usadas copias de compilacao dentro de .validacao, com fontes identicas
+aos arquivos originais. A versao fisica usou config.example.h como config.h,
+sem credenciais reais. Nenhuma placa foi gravada.
+
+esp32/estacao_conexao/estacao_conexao.ino: APROVADO (exit code 0).
+Programa: 953265 bytes (72% de 1310720).
+Variaveis globais: 48196 bytes (14% de 327680).
+
+wokwi/sketch.ino: APROVADO (exit code 0).
+Programa: 952897 bytes (72% de 1310720).
+Variaveis globais: 48236 bytes (14% de 327680).
+
+EVIDENCIAS ANTERIORES RECONFERIDAS
+validacao-sono.jsonl: ciclos 1, 2 e 3; dois despertares por timer,
+reset_reason=8 e sono_ms=31492.
+wokwi-mqtt.jsonl: 47 mensagens; confirmacoes nao retidas de limite:50.0,
+led:on, led:off e limite:25.0.
+Esses registros sao de 21/11/2026; nao foram substituidos.
+Nao houve nova execucao da simulacao nem teste em hardware fisico nesta revisao.
+O enunciado original nao esta na pasta; a aceitacao do DHT22 no simulador
+em lugar do DHT11 depende dos criterios da atividade.
+
+PENDENCIAS NA HORA DA REVISAO LOCAL (CONCLUIDAS POSTERIORMENTE)
+evidencias/02-servico.png: servico recebendo topicos.
+evidencias/03-regra.png: alteracao do limite, /regra e /ack.
+Roteiro e locais de inclusao preparados em ENTREGA.md.
+
+ATUALIZACAO DAS CAPTURAS EM 22/11/2026
+Os integrantes forneceram os dois prints, ambos incluidos em ENTREGA.md.
+02-servico.png: mensagens novas de temperatura, umidade, sensor e LED.
+03-regra.png: limite 50 em /regra, /ack de limite:50.0 e log do sistema.
+As capturas mostram mensagens das 16:01:53 UTC-03:00. A conferenca dessas
+imagens complementa a revisao local acima; nao representa operacao do
+simulador pelo agente nem teste em placa fisica.

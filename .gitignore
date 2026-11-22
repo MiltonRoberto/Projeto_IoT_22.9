@@ -1,0 +1,6 @@
+esp32/estacao_conexao/config.h
+__pycache__/
+*.pyc
+.venv/
+.validacao/
+servico/registros/

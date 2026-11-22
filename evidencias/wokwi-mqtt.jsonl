@@ -1,0 +1,47 @@
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/temp", "payload": "27.8", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/umid", "payload": "61.0", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/sensor", "payload": "ok", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/led", "payload": "OFF", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/regra", "payload": "{\"limite\":50.0,\"modo\":\"auto\"}", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/wifi", "payload": "Wokwi-GUEST", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/rssi", "payload": "-95", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/log/wifi", "payload": "{\"ssid\":\"Wokwi-GUEST\",\"rssi\":-95,\"ip\":\"10.10.0.2\",\"ms\":2721}", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/log/tls", "payload": "{\"hora\":\"2026-11-21 19:15:39\",\"relogio_ok\":true,\"transporte\":\"TCP sem TLS\",\"fuso\":\"UTC-03:00\"}", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/log/sistema", "payload": "{\"ciclos\":1,\"heap\":214420,\"acordar\":\"reset/outro\",\"reset_reason\":5}", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/hora", "payload": "2026-11-21 19:15:39", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/status", "payload": "acordado", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/comando", "payload": "limite:50.0", "retained": true}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/comando", "payload": "limite:50.0", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/regra", "payload": "{\"limite\":50.0,\"modo\":\"auto\"}", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/ack", "payload": "limite:50.0", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/comando", "payload": "led:on", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/led", "payload": "ON", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/regra", "payload": "{\"limite\":50.0,\"modo\":\"manual\"}", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/ack", "payload": "led:on", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/comando", "payload": "led:off", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/led", "payload": "OFF", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/regra", "payload": "{\"limite\":50.0,\"modo\":\"manual\"}", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/ack", "payload": "led:off", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/comando", "payload": "limite:25.0", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/led", "payload": "ON", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/regra", "payload": "{\"limite\":25.0,\"modo\":\"auto\"}", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/ack", "payload": "limite:25.0", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/comando", "payload": "", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/led", "payload": "OFF", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/status", "payload": "dormindo", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/temp", "payload": "27.8", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/umid", "payload": "61.0", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/sensor", "payload": "ok", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/led", "payload": "OFF", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/led", "payload": "ON", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/regra", "payload": "{\"limite\":25.0,\"modo\":\"auto\"}", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/wifi", "payload": "Wokwi-GUEST", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/rssi", "payload": "-93", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/log/wifi", "payload": "{\"ssid\":\"Wokwi-GUEST\",\"rssi\":-93,\"ip\":\"10.10.0.2\",\"ms\":2622}", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/hora", "payload": "2026-11-21 19:15:54", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/log/tls", "payload": "{\"hora\":\"2026-11-21 19:15:54\",\"relogio_ok\":true,\"transporte\":\"TCP sem TLS\",\"fuso\":\"UTC-03:00\"}", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/log/sistema", "payload": "{\"ciclos\":1,\"heap\":214452,\"acordar\":\"reset/outro\",\"reset_reason\":5}", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/status", "payload": "acordado", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/led", "payload": "OFF", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/status", "payload": "dormindo", "retained": false}
+{"topic": "sis1a/milton-amf-iot4-481337832642259969/comando", "payload": "", "retained": false}

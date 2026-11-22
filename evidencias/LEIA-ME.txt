@@ -1,0 +1,14 @@
+Evidencias de simulacao no Wokwi, coletadas em 21 e 22/11/2026.
+02-servico.png: captura fornecida pelos integrantes em 22/11/2026; mensagens
+novas de temperatura, umidade, sensor e LED no servico Python.
+03-regra.png: captura fornecida pelos integrantes em 22/11/2026; regra com
+limite 50, confirmacao em /ack e log do segundo ciclo com despertar por timer.
+validacao-local-2026-11-22.txt: revisao local, quatro testes Python, compilacao
+dos dois firmwares e assinatura no broker em 22/11/2026; sem nova simulacao.
+wokwi-mqtt.jsonl: sensores, logs e confirmacoes dos comandos.
+validacao-sono.jsonl: tres ciclos novos via broker; dois despertares por timer aprovados.
+wokwi-serial-sono.txt: Serial da estacao completa com ciclos 1, 2 e 3.
+wokwi-deep-sleep.jpg: captura do terceiro ciclo; sono_ms=31492 e reset_reason=8.
+diagnostico-sono.txt: teste minimo isolado com sete ciclos.
+wokwi-circuito.jpg: circuito e firmware da primeira validacao MQTT.
+Nao representam teste em hardware fisico. Consulte ENTREGA.md.
